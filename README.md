@@ -52,7 +52,7 @@ This document outlines the complete project for a mobile robotic arm controlled 
 
 **Additional Considerations:**
 
-* The `hand-gesture-recognition-using-mediapipe` repository offers finger gesture recognition as well.
+* The [`hand-gesture-recognition-using-mediapipe`](https://github.com/Kazuhito00/hand-gesture-recognition-using-mediapipe) repository offers finger gesture recognition as well.
 * The project can be further enhanced by exploring alternative machine learning models like CNNs for potentially better gesture recognition accuracy, especially for complex gestures.
 
 This comprehensive overview provides a detailed explanation of each component's functionality and how they work together to achieve the project's objective: a mobile robotic arm controlled by intuitive hand gestures. 
@@ -76,10 +76,15 @@ Locate your terminal application and launch it.
 
 **2. Navigate to the project directory:**
 Use the `cd` command to navigate to the directory where the project files are stored. For example, if your files are in a folder named example "gesture_control_rover" on your desktop, you would type:
+```
+cd path/to/gesture_control_rover
+```
 
 **3. Run the demo:**
 Execute the following command to start the demo:
+```
 python Gesture_app.py
+```
 
 **4. Control the Rover with Hand Gestures:**
 A window will appear showing your webcam feed with a boundary box around your hand. Position your hand within the box to control the rover's movements:
